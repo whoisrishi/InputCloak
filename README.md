@@ -1,4 +1,4 @@
-# Input Field Hider
+# InputClock
 
 ## Overview
 
@@ -19,7 +19,7 @@ To install the Input Field Hider extension, follow these steps:
     <li><strong>Download the Extension</strong>:
         <ul>
             <li>Clone or download the repository to your local machine.</li>
-            <pre><code>git clone https://github.com/yourusername/input-field-hider.git</code></pre>
+            <pre><code>git clone https://github.com/whoisrishi/input-field-hider.git</code></pre>
         </ul>
     </li>
     <li><strong>Open Chrome</strong>:
