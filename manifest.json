@@ -1,0 +1,22 @@
+{
+    "name": "InputClock",
+    "version": "2.0",
+    "description": "Extension that will hide your input field",
+    "manifest_version": 3,
+    "permissions": ["activeTab"],
+    "action": {
+        "default_icon": {
+            "48": "icon48.jpeg"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "run_at": "document_start"
+        }
+    ]
+}
