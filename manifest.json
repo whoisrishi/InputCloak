@@ -1,22 +1,16 @@
 {
     "name": "InputClock",
-    "version": "2.0",
-    "description": "Extension that will hide your input field",
+    "version": "1.0",
+    "description": "Extension that will cover your input field",
     "manifest_version": 3,
     "permissions": ["activeTab"],
     "action": {
-        "default_icon": {
-            "48": "icon48.jpeg"
-        }
-    },
-    "background": {
-        "service_worker": "background.js"
+        "default_popup": "popup.html"
     },
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "js": ["content.js"],
-            "run_at": "document_start"
+            "js": ["content.js"]
         }
     ]
 }
