@@ -1,73 +1,47 @@
-# InputClock
+# InputCloak
 
 ## Overview
 
-The <strong>Input Field Hider</strong> is a Chrome extension designed to enhance your privacy while sharing your screen. It allows you to hide input fields on web pages, ensuring that sensitive information remains concealed during presentations or screen sharing sessions.
+The <strong>Input Field Hider</strong> is a Chrome extension that enhances your privacy by hiding input fields on web pages during screen sharing.
 
 ## Features
 
 <ul>
-    <li><strong>Toggle Visibility</strong>: Easily hide or show input fields with a single click.</li>
-    <li><strong>Screen Sharing Protection</strong>: Prevent sensitive information from being displayed during screen sharing.</li>
+    <li><strong>Toggle Visibility</strong>: Hide or show input fields with a click.</li>
+    <li><strong>Screen Sharing Protection</strong>: Conceal sensitive information during presentations.</li>
 </ul>
 
 ## Installation
 
-To install the Input Field Hider extension, follow these steps:
+To install the InputCloak extension:
 
 <ol>
-    <li><strong>Download the Extension</strong>:
+    <li><strong>Download the Extension</strong>
         <ul>
-            <li>Clone or download the repository to your local machine.</li>
-            <pre><code>git clone https://github.com/whoisrishi/input-field-hider.git</code></pre>
+            <li>Clone the repository:</li>
+            <li>
+                <pre><code>git clone https://github.com/whoisrishi/inputcloak.git</code></pre>
+            </li>
         </ul>
     </li>
-    <li><strong>Open Chrome</strong>:
+    <li><strong>Open Chrome</strong>
         <ul>
-            <li>Launch the Google Chrome browser.</li>
-        </ul>
-    </li>
-    <li><strong>Access Extensions Page</strong>:
-        <ul>
-            <li>Go to <code>chrome://extensions/</code> in the address bar.</li>
-        </ul>
-    </li>
-    <li><strong>Enable Developer Mode</strong>:
-        <ul>
-            <li>Toggle the "Developer mode" switch in the top right corner of the Extensions page.</li>
-        </ul>
-    </li>
-    <li><strong>Load Unpacked Extension</strong>:
-        <ul>
-            <li>Click on the "Load unpacked" button and select the folder where you downloaded the extension.</li>
-        </ul>
-    </li>
-    <li><strong>Extension Installed</strong>:
-        <ul>
-            <li>The Input Field Hider extension should now appear in your list of extensions.</li>
+            <li>Launch Chrome and go to <code>chrome://extensions/</code>.</li>
+            <li>Enable "Developer mode" and click "Load unpacked" to select the downloaded folder.</li>
         </ul>
     </li>
 </ol>
 
-## How to Invoke
+## How to Use
 
 <ol>
-    <li><strong>Click the Extension Icon</strong>:
-        <ul>
-            <li>Click on the Input Field Hider icon in the Chrome toolbar.</li>
-        </ul>
-    </li>
-    <li><strong>Toggle Input Fields</strong>:
-        <ul>
-            <li>The first click will hide content of all input fields on the current page.</li>
-            <li>A subsequent click will reveal the input fields again</li>
-        </ul>
-    </li>
+    <li><strong>Click the Extension Icon</strong>: Click the InputCloak icon in the toolbar.</li>
+    <li><strong>Toggle Input Fields</strong>: Click to hide or reveal input fields on the page.</li>
 </ol>
 
 ## Usage Tips
 
 <ul>
-    <li>Use the extension whenever you are about to share your screen, especially in meetings or presentations.</li>
-    <li>You can toggle the visibility of input fields as needed during your screen sharing session.</li>
+    <li>Use the extension before sharing your screen in meetings.</li>
+    <li>Toggle visibility as needed during your session.</li>
 </ul>
